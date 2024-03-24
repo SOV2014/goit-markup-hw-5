@@ -651,6 +651,7 @@ ol {
 
 .modal-input:focus {
   border: 1px solid #4d5ae5;
+
 }
 
 .modal-icon {
@@ -666,13 +667,18 @@ ol {
   fill: #4D5AE5;
 }
 
-/* .modal-icon:focus {
-  fill: #4D5AE5;
-} */
+.modal-icon:focus {
+  color: #4D5AE5;
+}
 
 .modal-input-wrap {
   position: relative;
   left: 16px;
+}
+
+.modal-input-wrap:focus,
+.modal-input-wrap:hover {
+  fill: #4D5AE5;
 }
 
 .modal-label {
