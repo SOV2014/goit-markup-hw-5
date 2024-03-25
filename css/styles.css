@@ -549,7 +549,9 @@ ol {
 }
 
 
-.email-input {}
+.email-input {
+  margin-left: auto;
+}
 
 .email-input-subscribe {
   margin-bottom: 16px;
@@ -596,10 +598,13 @@ ol {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+
 }
 
 .input-button-image {
   margin-left: 16px;
+  fill: #ffffff;
+  border: none;
 }
 
 /* =========Backdrop========= */
@@ -620,11 +625,11 @@ ol {
   pointer-events: none;
 }
 
-.is-open {
+/* .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 .modal {
   top: 50%;
