@@ -579,7 +579,7 @@ ol {
 }
 
 .email-input-input::placeholder {
-  color #ffffff;
+  color: #ffffff;
 }
 
 .email-input-button {
