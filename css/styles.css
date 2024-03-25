@@ -599,7 +599,7 @@ ol {
   padding: 72px 24px 24px 24px;
 }
 
-.button-box {}
+
 
 .modal-close {
   position: absolute;
@@ -622,7 +622,7 @@ ol {
   fill: #ffffff;
   background-color: #404bbf;
   border: none;
-  background-color: #404bbf;
+
 }
 
 .modal-close:focus {
@@ -664,7 +664,7 @@ ol {
   background-color: transparent;
   outline: transparent;
   padding-left: 38px;
-  margin-bottom: 8px;
+
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -682,7 +682,7 @@ ol {
   position: absolute;
 }
 
-.modal-input>modal-icon:focus {
+.modal-input:focus+.modal-icon {
   fill: #4D5AE5;
 }
 
@@ -692,7 +692,7 @@ ol {
 
 .modal-input-wrap {
   position: relative;
-  left: 16px;
+
 }
 
 .modal-input-wrap:focus,
@@ -729,15 +729,14 @@ ol {
   border-color: #4D5AE5;
 }
 
-.modal-field {
-  margin-bottom: 24px;
-}
+
 
 .check-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
 
 }
 
@@ -753,12 +752,6 @@ ol {
   fill: transparent;
 }
 
-.visually-hidden>.check-text:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
-
-}
 
 .check-link {
   color: #4d5ae5;
@@ -776,4 +769,13 @@ ol {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-top: 24px;
+
+}
+
+.modal-check:checked+.check-text .user-check-box {
+  background-color: #404bbf;
+  fill: #F4F4FD;
 }
